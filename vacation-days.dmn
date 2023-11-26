@@ -107,7 +107,7 @@
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_5BD0FBED-AA35-44F4-81CE-8BFD4134537A">
-          <dmn:text>{15..30[</dmn:text>
+          <dmn:text>[15..30[</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_DAD209B4-0B44-4702-ABEF-C0E63DD190F4">
           <dmn:text>2</dmn:text>
@@ -118,7 +118,7 @@
       </dmn:rule>
       <dmn:rule id="_375961D2-56C5-4B1D-8E53-48874546CB1C">
         <dmn:inputEntry id="_91E0465B-72F5-4617-B922-51C116754A26">
-          <dmn:text>{45..60[</dmn:text>
+          <dmn:text>[45..60[</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_2F41421D-7099-45C8-9FE6-E1D25149B9D7">
           <dmn:text>-</dmn:text>

@@ -36,7 +36,11 @@
           <dmn:text>Years of Service</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
-      <dmn:output id="_B8C60C12-496D-4FDA-BB0C-09FA0ADFE688"/>
+      <dmn:output id="_B8C60C12-496D-4FDA-BB0C-09FA0ADFE688">
+        <dmn:defaultOutputEntry id="_4FE9C0D8-7561-4F24-BA24-AE5C828F5BBF">
+          <dmn:text>0</dmn:text>
+        </dmn:defaultOutputEntry>
+      </dmn:output>
       <dmn:annotation name="annotation-1"/>
       <dmn:rule id="_B2B5B831-F671-4755-82D6-C5345473572A">
         <dmn:inputEntry id="_CFC64544-6EC9-42AD-9DD2-69AD1B0C0A86">
@@ -74,7 +78,7 @@
     <dmn:informationRequirement id="_41D18DC2-600E-4286-88FC-35F1506CA37B">
       <dmn:requiredInput href="#_72BB81A7-AD5A-4085-94D8-60E708ADF309"/>
     </dmn:informationRequirement>
-    <dmn:informationRequirement id="_7F793EA6-F5BB-4AEB-817B-4F12CB6F4F32">
+    <dmn:informationRequirement id="_7D8AF365-7ED5-49E9-9998-FB46266265A4">
       <dmn:requiredInput href="#_F4F6F8EC-9DB7-440A-ACF3-1569642B080F"/>
     </dmn:informationRequirement>
     <dmn:decisionTable id="_48AF09CA-EE8B-49A0-AD08-FA04E611455B" hitPolicy="COLLECT" aggregation="MAX" preferredOrientation="Rule-as-Row">
@@ -88,7 +92,11 @@
           <dmn:text>Years of Service</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
-      <dmn:output id="_4959EC44-A895-4B3D-B132-388BB7A1CF65"/>
+      <dmn:output id="_4959EC44-A895-4B3D-B132-388BB7A1CF65">
+        <dmn:defaultOutputEntry id="_4BC8DCF1-370A-4E63-9C21-40098024FC90">
+          <dmn:text>0</dmn:text>
+        </dmn:defaultOutputEntry>
+      </dmn:output>
       <dmn:annotation name="annotation-1"/>
       <dmn:rule id="_94366159-A2A0-4E96-A42F-5CBE17F8B3C3">
         <dmn:inputEntry id="_D2DED1C7-0971-43AA-B1CB-9B453783C366">
@@ -303,12 +311,12 @@
         <di:waypoint x="651" y="396"/>
         <di:waypoint x="720" y="269.21804511278197"/>
       </dmndi:DMNEdge>
-      <dmndi:DMNEdge id="dmnedge-drg-_7F793EA6-F5BB-4AEB-817B-4F12CB6F4F32" dmnElementRef="_7F793EA6-F5BB-4AEB-817B-4F12CB6F4F32">
+      <dmndi:DMNEdge id="dmnedge-drg-_7D8AF365-7ED5-49E9-9998-FB46266265A4" dmnElementRef="_7D8AF365-7ED5-49E9-9998-FB46266265A4">
         <di:waypoint x="444.29906542056074" y="396"/>
-        <di:waypoint x="720" y="244.21804511278197"/>
+        <di:waypoint x="670" y="244.21804511278197"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-drg-_C084582F-1140-4D04-B41D-B431AB0BE7D2-AUTO-TARGET" dmnElementRef="_C084582F-1140-4D04-B41D-B431AB0BE7D2">
-        <di:waypoint x="651" y="396"/>
+        <di:waypoint x="601" y="396"/>
         <di:waypoint x="390" y="269.21804511278197"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-drg-_BFB6275D-BB8C-4288-85E2-26B9FFA1D988-AUTO-TARGET" dmnElementRef="_BFB6275D-BB8C-4288-85E2-26B9FFA1D988">

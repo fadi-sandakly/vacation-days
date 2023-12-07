@@ -165,7 +165,7 @@
       </dmndi:DMNShape>
       <dmndi:DMNEdge id="dmnedge-drg-_42E8DC1E-8398-4DE4-969C-0703D9B3B6AE" dmnElementRef="_42E8DC1E-8398-4DE4-969C-0703D9B3B6AE">
         <di:waypoint x="549" y="425"/>
-        <di:waypoint x="549" y="323"/>
+        <di:waypoint x="549" y="298"/>
       </dmndi:DMNEdge>
     </dmndi:DMNDiagram>
   </dmndi:DMNDI>
